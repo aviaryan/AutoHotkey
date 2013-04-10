@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Avis Autohotkey</string>
+	<string>Avis Autohotkey - Dark</string>
 	<key>author</key>
 	<string>Avi</string>
 	<key>settings</key>
@@ -30,7 +30,7 @@
 				<key>inactiveSelectionForeground</key>
 				<string>#222222</string>
 				<key>findHighlight</key>
-				<string>#FFE792</string>
+				<string>#33ECFE</string>
 				<key>findHighlightForeground</key>
 				<string>#000000</string>
 				<key>activeGuide</key>
@@ -418,6 +418,15 @@
 			<dict>
 				<key>foreground</key>
 				<string>#B60703</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword.other.ahk</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#01B900</string>
 			</dict>
 		</dict>
 	</array>
