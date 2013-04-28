@@ -127,11 +127,11 @@
             { "trigger": "ListHotkeys", "contents": "ListHotkeys" },
             { "trigger": "ListLines", "contents": "ListLines, ${1:[ On|Off]}" },
             { "trigger": "ListVars", "contents": "ListVars" },
-            { "trigger": "Loop", "contents": "Loop, ${1:[ Count]`n{`n ID := A_Index`n If var%A_Index% =`n break`n}}" },
-            { "trigger": "Loop", "contents": "Loop, ${1:FilePattern [}, ${2:IncludeFolders?}, ${3:Recurse?]`n{`n FileName := A_LoopFileName`n FileFullPath := A_LoopFileLongPath`n FileRelativeDir := A_LoopFileDir`n command2`n}}" },
-            { "trigger": "Loop", "contents": "Loop, ${1:Parse}, ${2:InputVar [}, ${3:Delimiters|CSV}, ${4:OmitChars]`n{`n Line := A_LoopField`n command2`n}}" },
-            { "trigger": "Loop", "contents": "Loop, ${1:Read}, ${2:InputFile [}, ${3:OutputFile]`n{`n Line := A_LoopReadLine`n command2`n}}" },
-            { "trigger": "Loop", "contents": "Loop, ${1:HKLM|HKU|HKCU|HKCR|HKCC [}, ${2:Key}, ${3:IncludeSubkeys?}, ${4:Recurse?]`n{`n RegName := A_LoopRegName`n RegType := A_LoopRegType`n command2`n}}" },
+            { "trigger": "Loop", "contents": "Loop, ${1:[ Count]}" },
+            { "trigger": "Loop <file>", "contents": "Loop, ${1:FilePattern [}, ${2:IncludeFolders?}, ${3:Recurse?]}" },
+            { "trigger": "Loop parse", "contents": "Loop, ${1:Parse}, ${2:InputVar [}, ${3:Delimiters|CSV}, ${4:OmitChars]}" },
+            { "trigger": "Loop read", "contents": "Loop, ${1:Read}, ${2:InputFile [}, ${3:OutputFile]}" },
+            { "trigger": "Loop reg", "contents": "Loop, ${1:HKLM|HKU|HKCU|HKCR|HKCC [}, ${2:Key}, ${3:IncludeSubkeys?}, ${4:Recurse?]}" },
             { "trigger": "Menu", "contents": "Menu, ${1:MenuName}, ${2:Cmd [}, ${3:P3}, ${4:P4}, ${5:P5]}" },
             { "trigger": "MouseClick", "contents": "MouseClick, ${1:WhichButton [}, ${2:X}, ${3:Y}, ${4:ClickCount}, ${5:Speed}, ${6:D|U}, ${7:R]}" },
             { "trigger": "MouseClickDrag", "contents": "MouseClickDrag, ${1:WhichButton}, ${2:X1}, ${3:Y1}, ${4:X2}, ${5:Y2 [}, ${6:Speed}, ${7:R]}" },
@@ -936,6 +936,6 @@
 		{ "trigger": "InternetExplorer.Application", "contents": "InternetExplorer.Application" },
 		{ "trigger": "AutoHotkey", "contents": "AutoHotkey" },
 		{ "trigger": "AutoHotkeyGUI", "contents": "AutoHotkeyGUI" },
-		{ "trigger": "Msgbox,", "contents": "Msgbox," }
+		{ "trigger": "Msgbox <blank>", "contents": "Msgbox, " }
 ]
 }
