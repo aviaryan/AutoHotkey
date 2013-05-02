@@ -54,7 +54,7 @@
             <key>name</key>
             <string>entity.name.label.ahk</string>
             <key>match</key>
-            <string>(\b|^)(?i)(gosub)\b</string>
+            <string>(\b|^)(?i)(gosub|goto)\b</string>
         </dict>
         <dict>
             <key>name</key>
@@ -81,15 +81,6 @@
             <key>match</key>
             <string>(\b|^)(?i)(\w+(?=\()|(abs|acos|asc|asin|atan|ceil|chr|cos|dllcall|exp|fileexist|floor|getkeystate|il_add|il_create|il_destroy|instr|substr|isfunc|islabel|ln|log|lv_add|lv_delete|lv_deletecol|lv_getcount|lv_getnext|lv_gettext|lv_insert|lv_insertcol|lv_modify|lv_modifycol|lv_setimagelist|mod|onmessage|numget|numput|registercallback|regexmatch|regexreplace|round|sin|tan|sqrt|strlen|sb_seticon|sb_setparts|sb_settext|tv_add|tv_delete|tv_getchild|tv_getcount|tv_getnext|tv_get|tv_getparent|tv_getprev|tv_getselection|tv_gettext|tv_modify|varsetcapacity|winactive|winexist|__New|__Call|__Get|__Set)\b)</string>
         </dict>
-        <!--
-        <dict>
-            <key>name</key>
-            <string>entity.name.function</string>
-            <key>match</key>
-            <string>(\b|^).+\(.+\)\n</string>
-        </dict>
-        -->
-
         <dict>
             <key>name</key>
             <string>storage.type.primitive.array.java</string>
@@ -108,14 +99,14 @@
             <key>name</key>
             <string>keyword.other.ahk</string>
             <key>match</key>
-            <string>(\b|^)(?i)(pixel|mouse|screen|relative|rgb|ltrim|rtrim|join|low|belownormal|normal|abovenormal|high|realtime|ahk_id|ahk_pid|ahk_class|ahk_group|between|contains|in|is|integer|float|integerfast|floatfast|number|digit|xdigit|alpha|upper|lower|alnum|time|date|not|or|and|alwaysontop|topmost|top|bottom|transparent|transcolor|redraw|region|id|idlast|processname|minmax|controllist|count|list|capacity|statuscd|eject|lock|unlock|label|filesystem|label|setlabel|serial|type|status|static|global|local|byref|seconds|minutes|hours|days|read|parse|logoff|close|error|single|tray|add|rename|check|uncheck|togglecheck|enable|disable|toggleenable|default|nodefault|standard|nostandard|color|delete|deleteall|icon|noicon|tip|click|show|mainwindow|nomainwindow|useerrorlevel|text|picture|pic|groupbox|button|checkbox|radio|dropdownlist|ddl|combobox|listbox|listview|datetime|monthcal|updown|slider|tab|tab2|statusbar|treeview|iconsmall|tile|report|sortdesc|nosort|nosorthdr|grid|hdr|autosize|range|xm|ym|ys|xs|xp|yp|font|resize|owner|submit|nohide|minimize|maximize|restore|noactivate|na|cancel|destroy|center|margin|maxsize|minsize|owndialogs|guiescape|guiclose|guisize|guicontextmenu|guidropfiles|tabstop|section|altsubmit|wrap|hscroll|vscroll|border|top|bottom|buttons|expand|first|imagelist|lines|wantctrla|wantf2|vis|visfirst|number|uppercase|lowercase|limit|password|multi|wantreturn|group|background|bold|italic|strike|underline|norm|backgroundtrans|theme|caption|delimiter|minimizebox|maximizebox|sysmenu|toolwindow|flash|style|exstyle|check3|checked|checkedgray|readonly|password|hidden|left|right|center|notab|section|move|focus|hide|choose|choosestring|text|pos|enabled|disabled|visible|lastfound|lastfoundexist|alttab|shiftalttab|alttabmenu|alttabandmenu|alttabmenudismiss|notimers|interrupt|priority|waitclose|blind|raw|unicode|deref|pow|bitnot|bitand|bitor|bitxor|bitshiftleft|bitshiftright|yes|no|ok|cancel|abort|retry|ignore|tryagain|on|off|all|hkey_local_machine|hkey_users|hkey_current_user|hkey_classes_root|hkey_current_config|hklm|hku|hkcu|hkcr|hkcc|reg_sz|reg_expand_sz|reg_multi_sz|reg_dword|reg_qword|reg_binary|reg_link|reg_resource_list|reg_full_resource_descriptor|reg_resource_requirements_list|reg_dword_big_endian)\b</string>
+            <string>(\b|^)(?i)(pixel|mouse|screen|relative|rgb|ltrim|rtrim|join|low|belownormal|normal|abovenormal|high|realtime|ahk_id|ahk_pid|ahk_class|ahk_group|between|contains|in|is|integer|float|integerfast|floatfast|number|digit|xdigit|alpha|upper|lower|alnum|time|date|not|or|and|alwaysontop|topmost|top|bottom|transparent|transcolor|redraw|region|id|idlast|processname|minmax|controllist|count|list|capacity|statuscd|eject|lock|unlock|label|filesystem|label|setlabel|serial|type|status|static|global|local|byref|seconds|minutes|hours|days|read|parse|logoff|close|error|single|tray|add|rename|check|uncheck|togglecheck|enable|disable|toggleenable|default|nodefault|standard|nostandard|color|delete|deleteall|icon|noicon|tip|click|show|mainwindow|nomainwindow|useerrorlevel|text|picture|pic|groupbox|button|checkbox|radio|dropdownlist|ddl|combobox|listbox|listview|datetime|monthcal|updown|slider|tab|tab2|statusbar|treeview|iconsmall|tile|report|sortdesc|nosort|nosorthdr|grid|hdr|autosize|range|xm|ym|ys|xs|xp|yp|font|resize|owner|submit|nohide|minimize|maximize|restore|noactivate|na|cancel|destroy|center|margin|maxsize|minsize|owndialogs|guiescape|guiclose|guisize|guicontextmenu|guidropfiles|tabstop|section|altsubmit|wrap|hscroll|vscroll|border|top|bottom|buttons|expand|first|imagelist|lines|wantctrla|wantf2|vis|visfirst|number|uppercase|lowercase|limit|password|multi|wantreturn|group|background|bold|italic|strike|underline|norm|backgroundtrans|theme|caption|delimiter|minimizebox|maximizebox|sysmenu|toolwindow|flash|style|exstyle|check3|checked|checkedgray|readonly|password|hidden|left|right|center|notab|section|move|focus|hide|choose|choosestring|text|pos|enabled|disabled|visible|lastfound|lastfoundexist|alttab|shiftalttab|alttabmenu|alttabandmenu|alttabmenudismiss|notimers|interrupt|priority|waitclose|blind|raw|unicode|deref|pow|bitnot|bitand|bitor|bitxor|bitshiftleft|bitshiftright|yes|no|ok|cancel|abort|retry|ignore|force|tryagain|on|off|alwayson|alwaysoff|all|regex|hkey_local_machine|hkey_users|hkey_current_user|hkey_classes_root|hkey_current_config|hklm|hku|hkcu|hkcr|hkcc|reg_sz|reg_expand_sz|reg_multi_sz|reg_dword|reg_qword|reg_binary|reg_link|reg_resource_list|reg_full_resource_descriptor|reg_resource_requirements_list|reg_dword_big_endian)\b</string>
         </dict>
 
         <dict>
             <key>name</key>
             <string>keyword.operator.ahk</string>
             <key>match</key>
-            <string>=|==|&lt;&gt;|:=|&lt;|&gt;|\*|\/|\+|:|\?|\-</string>
+            <string>=|==|&lt;&gt;|:=|&lt;|&gt;|\*|\/|\+|:|\?|\-|\^|\!|\#|\~</string>
         </dict>
         <dict>
             <key>name</key>
@@ -135,11 +126,8 @@
             <key>name</key>
             <string>storage.type.primitive.array.java</string>
             <key>match</key>
-            <string>(%)(([^%,:]|%%)*%|\s\w+|\s(?=\"))</string>
+            <string>(%)(([^%,:]|%%)*%|\s\S+|\s(?=\"))</string>
         </dict>
-
-
-
         <dict>
             <key>captures</key>
             <dict>
@@ -162,7 +150,7 @@
             <key>name</key>
             <string>quoted.string.line.ahk</string>
             <key>match</key>
-<string>(")(([^"]|"")*)(")</string>
+            <string>(")(([^"]|"")*)(")</string>
         </dict>
 
         <dict>
@@ -182,7 +170,7 @@
             <key>name</key>
             <string>label.line.ahk</string>
             <key>match</key>
-            <string>^([^: ]+)(:)(?!:)</string>
+            <string>^([^: ]+)(:)\s</string>
         </dict>
 
     </array>
