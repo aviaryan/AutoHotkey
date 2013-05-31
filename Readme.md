@@ -2,8 +2,8 @@ AutoHotkey Sublime-Text Package
 ===============================
 
 ### Installing ###
-If you have Package Control installed, in commnad pallete type  
-`Package Control: Add Repository`  
+If you have Package Control installed, in command palette type  
+`Package Control: Add Repositoryy`  
 Then add `https://github.com/Avi-Aryan/AutoHotKey` to it.  
 Now, the package will be available for Install.  
   
@@ -21,6 +21,6 @@ It has better Auto-Completes , Syntax-Highlighting and Language Files plus bonus
 * Similarly Loop has 5 variants each for `general`, `reading files and folders` , `parsing a string`  
 ,`registry reading` and `reading lines from file` . 
   
-#### Contributors ####
+##### Contributors #####
 * denofle
 * Ragnar
