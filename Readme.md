@@ -22,5 +22,5 @@ It has better Auto-Completes , Syntax-Highlighting and Language Files plus bonus
 ,`registry reading ` and `reading lines from file ` . 
   
 ##### Contributors #####
-* denofle
+* denolfe
 * Ragnar
