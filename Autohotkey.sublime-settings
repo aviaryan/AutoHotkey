@@ -1,5 +1,5 @@
 // Autohotkey specific Sublime-Settings File
 // By default has only the color scheme setting to use Avis Autohotkey theme for the best Syntax Highlighting possible
 {
-	"color_scheme": "Packages/Color Scheme - Default/Avis Autohotkey - Light.tmTheme"
+	"color_scheme": "Packages/AutoHotkey/Avis Autohotkey - Dark.tmTheme"
 }
