@@ -240,6 +240,10 @@
 
             // Functions
 
+            { "trigger": "__New", "contents": "__New(${1:Params})" },
+            { "trigger": "__Get", "contents": "__Get(${1:Params})" },
+            { "trigger": "__Set", "contents": "__Set(${1:Params})" },
+            
             { "trigger": "Abs(Number)", "contents": "Abs(${1:Number})" },
             { "trigger": "ACos(Number)", "contents": "ACos(${1:Number})" },
             { "trigger": "Asc(String)", "contents": "Asc(${1:String})" },
@@ -453,8 +457,9 @@
             { "trigger": "ComSpec", "contents": "ComSpec" },
             { "trigger": "ErrorLevel", "contents": "ErrorLevel" },
             { "trigger": "ProgramFiles", "contents": "ProgramFiles" },
-            { "trigger": "True", "contents": "True" },
-            { "trigger": "False", "contents": "False" },
+            { "trigger": "true", "contents": "true" },
+            { "trigger": "false", "contents": "false" },
+            { "trigger": "this", "contents": "this" },
 
             //Keys--
             { "trigger": "Shift", "contents": "Shift" },
@@ -936,6 +941,7 @@
             { "trigger": "REG_MULTI_SZ", "contents": "REG_MULTI_SZ" },
             { "trigger": "REG_DWORD", "contents": "REG_DWORD" },
             { "trigger": "REG_BINARY", "contents": "REG_BINARY" },
+            { "trigger": "new", "contents": "new " },
 
             //  Extra common-keywords
 

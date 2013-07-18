@@ -445,6 +445,16 @@
 				<string>#EDA307</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>scope</key>
+			<string>punctuation.ahk</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#55553C</string>
+			</dict>
+		</dict>
+	
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347E</string>
