@@ -14,7 +14,7 @@ This is a Autohotkey package for Sublime Text.
 It has better Auto-Completes , Syntax-Highlighting and Language Files plus bonus custom themes and ahk scripts to make it even better.
 
 #### Tips ####
-* Make sure to **change Autohotkey.sublime-build** according to your requirements.  
+* Make sure to **change AutoHotKey.sublime-build** according to your requirements.  
 * Use Auto-Complete Adder to add custom Auto-completes.  
 * Dont worry about two Msgbox's in Autocomplete. `<blank> ` is for  
 `Msgbox,text 			;(used in testing)` whereas other is for the whole long command.
@@ -22,5 +22,6 @@ It has better Auto-Completes , Syntax-Highlighting and Language Files plus bonus
 ,`registry reading ` and `reading lines from file ` . 
   
 ##### Contributors #####
-* denolfe
+* denofle
 * Ragnar
+* budRich (Hat of God theme)

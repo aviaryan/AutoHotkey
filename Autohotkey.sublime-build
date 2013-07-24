@@ -1,6 +1,7 @@
 // Replace the first parameter of cmd with your Autohotkey path.
-// Make sure that you have two hashes \\
+// Make sure that you have two hashes \\ in the path.
 {
-"cmd": ["C:\\Program Files\\Autohotkey\\autohotkey.exe", "/ErrorStdOut", "$file"],
-	"selector": "source.AutoHotkey"
+	"cmd": ["C:\\Program Files\\Autohotkey\\autohotkey.exe", "/ErrorStdOut", "$file"],
+	"selector": "source.AutoHotKey"
 }
+// The selector param is CaSe-SEnSitIve.
