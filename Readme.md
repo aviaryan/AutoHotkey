@@ -1,5 +1,8 @@
-AutoHotkey Sublime-Text Package
+AutoHotkey Sublime-Text Package (Discontinued)
 ===============================
+
+## Important Note ##
+This project is discontinued. Please use AHKScript's official [AutoHotkey package](https://github.com/ahkscript/SublimeAutoHotkey). It's also available on the Package Control.
 
 ### Installing ###
 If you have Package Control installed, in command palette type  
